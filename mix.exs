@@ -45,7 +45,7 @@ defmodule ExMicrosoftbot.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpotion, "~> 2.2"},
+      {:httpotion, ">= 2.2.0"},
       {:poison, "~> 2.1"},
       {:inch_ex, ">= 0.0.0", only: :docs},
       {:dialyxir, "~> 0.3", only: [:dev]},
