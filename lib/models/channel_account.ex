@@ -5,12 +5,12 @@ defmodule ExMicrosoftBot.Models.ChannelAccount do
 
   @derive [Poison.Encoder]
   defstruct [
-    :name, :channelId, :address, :id, :isBot
+    :name, :channelId, :address, :id, :isBot, :username
   ]
 
   @type t :: %ExMicrosoftBot.Models.ChannelAccount{
     name: String.t, channelId: String.t, address: String.t, id: String.t,
-    id: String.t, isBot: boolean
+    id: String.t, isBot: boolean, username: String.t
   }
 
   @doc false
